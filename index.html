@@ -40,6 +40,7 @@
             width: 90%;
             text-align: center;
         }
+        /* Стиль для заголовка */
         h1 {
             color: #C94C4D;
             font-size: 18px;
@@ -47,32 +48,27 @@
             font-weight: bold;
             line-height: 1.4;
         }
-        .main-text {
-            color: #333;
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            line-height: 1.5;
-        }
+        /* Общий стиль параграфов */
         p {
             color: #444;
             font-size: 16px;
             margin: 15px 0;
             line-height: 1.5;
         }
-        .highlight {
+        /* Красный акцентный текст */
+        .highlight-red {
             color: #C94C4D;
             font-weight: bold;
             font-size: 18px;
         }
-        .link-text {
-            color: #38761d;
-            text-decoration: none;
-            font-size: 14px;
-            display: block;
-            margin-top: 5px;
-            margin-bottom: 25px;
+        /* НОВЫЙ СТИЛЬ: Зеленый акцентный текст */
+        .highlight-green {
+            color: #38761d; /* Темно-зеленый цвет */
+            font-weight: bold;
+            font-size: 18px; /* Чуть больше */
+            margin: 25px 0 35px 0; /* Добавляем отступы */
         }
+        /* Кнопка WhatsApp */
         .btn {
             display: block;
             width: 100%;
@@ -100,14 +96,12 @@
     
     <p>New angles, new variations, new hooks – nonstop, everyday!</p>
     
-    <p class="highlight">Save your f*ck*ng time - we'll take care of creatives production</p>
+    <p class="highlight-red">Save your f*ck*ng time - we'll take care of creatives production</p>
     
     <p>You only launch, test, and scale</p>
     
-    <p>👉 Check my portfolio and price</p>
+    <p class="highlight-green">👉 Check my portfolio and price</p>
     
-    <a href="https://wa.me/40735460326" class="link-text">https://wa.me/40735460326</a>
-
     <a href="https://wa.me/40735460326" class="btn" onclick="fbq('track', 'Lead');">
         Continue in Whatsapp
     </a>
