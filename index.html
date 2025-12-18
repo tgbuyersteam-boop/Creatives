@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creatives Production</title>
+    <title>Creatives Production | AI UGC</title>
     
     <script>
     !function(f,b,e,v,n,t,s)
@@ -22,10 +22,10 @@
     /></noscript>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
             background-color: #e9eef6;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -33,77 +33,112 @@
         }
         .container {
             background-color: white;
-            padding: 40px 20px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 40px 25px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
             max-width: 400px;
-            width: 90%;
+            width: 100%;
             text-align: center;
         }
-        /* Стиль для заголовка */
         h1 {
             color: #C94C4D;
-            font-size: 18px;
+            font-size: 19px;
             margin-bottom: 20px;
             font-weight: bold;
             line-height: 1.4;
         }
-        /* Общий стиль параграфов */
         p {
             color: #444;
             font-size: 16px;
             margin: 15px 0;
             line-height: 1.5;
         }
-        /* Красный акцентный текст */
         .highlight-red {
             color: #C94C4D;
             font-weight: bold;
             font-size: 18px;
         }
-        /* НОВЫЙ СТИЛЬ: Зеленый акцентный текст */
         .highlight-green {
-            color: #38761d; /* Темно-зеленый цвет */
+            color: #2e7d32;
             font-weight: bold;
-            font-size: 18px; /* Чуть больше */
-            margin: 25px 0 35px 0; /* Добавляем отступы */
+            font-size: 19px;
+            margin: 25px 0 20px 0;
         }
-        /* Кнопка WhatsApp */
+
+        /* Единый стиль для всех кнопок */
         .btn {
             display: block;
             width: 100%;
-            padding: 15px 0;
-            background-color: white;
-            color: #38761d;
-            border: 2px solid #38761d;
-            border-radius: 6px;
-            font-size: 18px;
+            height: 55px; /* Фиксированная высота */
+            line-height: 55px; /* Центрирование текста по вертикали */
+            margin-bottom: 12px;
+            border-radius: 8px;
+            font-size: 16px;
             font-weight: bold;
             text-decoration: none;
-            cursor: pointer;
+            transition: opacity 0.2s ease;
             box-sizing: border-box;
+            padding: 0; /* Убираем падинги, так как есть line-height */
         }
         .btn:hover {
-            background-color: #38761d;
+            opacity: 0.9;
+        }
+
+        /* Цвета кнопок */
+        .btn-wa {
+            background-color: #25D366;
             color: white;
+        }
+        .btn-tg {
+            background-color: #0088cc;
+            color: white;
+        }
+        .btn-li {
+            background-color: #0077b5;
+            color: white;
+        }
+        .btn-mail {
+            background-color: #444;
+            color: white;
+        }
+
+        .footer-text {
+            font-size: 12px;
+            color: #999;
+            margin-top: 25px;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>We offer high-volume AI UGC and static creatives production for Meta Andromeda</h1>
+    <h1>High-volume AI UGC and static creatives production for Meta Andromeda</h1>
     
     <p>New angles, new variations, new hooks – nonstop, everyday!</p>
     
-    <p class="highlight-red">Save your fucking time - we'll take care of creatives production</p>
+    <p class="highlight-red">Save your f*ck*ng time - we'll take care of creatives production</p>
     
     <p>You only launch, test, and scale</p>
-
+    
     <p class="highlight-green">👉 Check my portfolio and price</p>
-    <a href="https://wa.me/40735460326" class="btn" onclick="fbq('track', 'Lead');">
-        Continue in Whatsapp
+    
+    <a href="https://wa.me/40735460326" class="btn btn-wa" onclick="fbq('track', 'Lead');">
+        Continue in WhatsApp
     </a>
+
+    <a href="https://t.me/+ktWQuIvzNmxkNTdk" class="btn btn-tg" onclick="fbq('track', 'Lead');">
+        Contact via Telegram
+    </a>
+
+    <a href="https://www.linkedin.com/feed/" class="btn btn-li" onclick="fbq('track', 'Lead');">
+        Message on LinkedIn
+    </a>
+
+    <a href="mailto:your@email.com?subject=Creative%20Inquiry" class="btn btn-mail" onclick="fbq('track', 'Lead');">
+        Send an Email
+    </a>
+
+    <div class="footer-text">Professional B2B Creative Solutions</div>
 </div>
 
 </body>
