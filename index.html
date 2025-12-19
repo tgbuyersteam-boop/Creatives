@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,10 +42,16 @@
         }
         h1 {
             color: #C94C4D;
-            font-size: 19px;
-            margin-bottom: 20px;
+            font-size: 20px;
+            margin-bottom: 15px;
             font-weight: bold;
             line-height: 1.4;
+        }
+        .subtitle {
+            color: #444;
+            font-size: 16px;
+            margin-bottom: 25px;
+            font-weight: 500;
         }
         p {
             color: #444;
@@ -62,15 +68,20 @@
             color: #2e7d32;
             font-weight: bold;
             font-size: 19px;
-            margin: 25px 0 20px 0;
+            margin: 30px 0 10px 0;
+        }
+        .contact-text {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
         }
 
         /* Единый стиль для всех кнопок */
         .btn {
             display: block;
             width: 100%;
-            height: 55px; /* Фиксированная высота */
-            line-height: 55px; /* Центрирование текста по вертикали */
+            height: 55px;
+            line-height: 55px;
             margin-bottom: 12px;
             border-radius: 8px;
             font-size: 16px;
@@ -78,7 +89,7 @@
             text-decoration: none;
             transition: opacity 0.2s ease;
             box-sizing: border-box;
-            padding: 0; /* Убираем падинги, так как есть line-height */
+            padding: 0;
         }
         .btn:hover {
             opacity: 0.9;
@@ -87,10 +98,6 @@
         /* Цвета кнопок */
         .btn-wa {
             background-color: #25D366;
-            color: white;
-        }
-        .btn-tg {
-            background-color: #0088cc;
             color: white;
         }
         .btn-li {
@@ -112,7 +119,8 @@
 <body>
 
 <div class="container">
-    <h1>High-volume AI UGC and static creatives production for Meta Andromeda</h1>
+    <h1>Для команд, медиа баерам, бизнесу, лидгену</h1>
+    <div class="subtitle">High-volume AI UGC and static creatives production for Meta Andromeda</div>
     
     <p>New angles, new variations, new hooks – nonstop, everyday!</p>
     
@@ -120,22 +128,19 @@
     
     <p>You only launch, test, and scale</p>
     
-    <p class="highlight-green">👉 Check my portfolio and price</p>
+    <p class="highlight-green">👉 Посмотреть моё портфолио и цены</p>
+    <div class="contact-text">Любой удобный способ связи:</div>
     
     <a href="https://wa.me/40735460326" class="btn btn-wa" onclick="fbq('track', 'Lead');">
-        Continue in WhatsApp
-    </a>
-
-    <a href="https://t.me/+ktWQuIvzNmxkNTdk" class="btn btn-tg" onclick="fbq('track', 'Lead');">
-        Contact via Telegram
+        Написать в WhatsApp
     </a>
 
     <a href="https://www.linkedin.com/feed/" class="btn btn-li" onclick="fbq('track', 'Lead');">
-        Message on LinkedIn
+        Связаться в LinkedIn
     </a>
 
-    <a href="mailto:your@email.com?subject=Creative%20Inquiry" class="btn btn-mail" onclick="fbq('track', 'Lead');">
-        Send an Email
+    <a href="mailto:roiusd.business@gmail.com?subject=Inquiry%20about%20Creatives" class="btn btn-mail" onclick="fbq('track', 'Lead');">
+        Написать на Email
     </a>
 
     <div class="footer-text">Professional B2B Creative Solutions</div>
